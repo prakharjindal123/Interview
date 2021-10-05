@@ -2,3 +2,14 @@ https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
 
 https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/
 
+https://www.edureka.co/blog/interview-questions/c-sharp-interview-questions/
+
+https://www.edureka.co/blog/interview-questions/oops-interview-questions/
+
+https://www.edureka.co/blog/mvc-interview-questions
+
+https://www.edureka.co/blog/interview-questions/sql-interview-questions
+-----
+https://www.fullstack.cafe/blog/c-sharp-coding-interview-questions
+
+https://www.youtube.com/watch?v=ucUU9NFvutU
