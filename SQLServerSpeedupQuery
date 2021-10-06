@@ -1,0 +1,124 @@
+Speed up your SQL queries and retrieve data faster from your SQL server
+
+1. Batch data deletion and updates
+When you are deleting or updating your data, use as small batches as you possibly can. This will avoid loss or killing of your data in case there is a rollback.
+
+Working on smaller batches also enhances concurrency, as data other than the part you are deleting or updating can continue doing other work.
+
+2. Use automatic partitioning SQL server features
+Features of the data engine’s automatic partitioning is a big advantage to SQL Server Enterprise users. Split single partitions into multiples to move larger data amounts, by using SWITCH instead of DELETE and INSERT.
+
+This is because instead of inserting and deleting large data amounts, you are only changing the metadata. This takes a very short time.
+
+3. Convert scalar functions into table-valued functions
+Convert your scalar function to a table-valued function in order to make the performance faster, and reduce the time used.
+
+4. Instead of UPDATE, use CASE
+In the SQL query, an UPDATE statement writes longer to a table than a CASE statement, because of its logging. An inline CASE statement chooses what is preferred before writing it on the table, thus making it a very simple way to speed up your SQL query.
+
+5. Reduce nested views to reduce lags
+Performance lags come about due to nesting views that are inside other views, which are also inside other views and so on.
+
+This nesting causes too many data returns for every single query, which either makes the database crawl, or completely give up and give no returns.
+
+Minimizing nesting is a simple way to make your SQl query efficient and significantly improve speeds.
+
+6. Data pre-staging
+Data pre-staging means you can have your reports faster. Join data tables ahead of reporting, presentation or writing time to avoid joining them together at once.
+
+7. Use temp tables
+Temporary tables come in handy in several situations, especially when you are joining a small table to a larger one.
+
+Speed up query execution in your SQL server by taking any data needed out of the large table, transferring it to a temp table and join with that.
+
+This reduces the power required in processing.
+
+8. Avoid using re-use code
+When you use another person’s code, chances are you might pull more data than you really need. Cutting this data down may be hard, but if you trim a re-used code to your needs, there is no reason for ending up with huge data clusters.
+
+9. Avoid negative searches
+Nothing slows data as much as carrying out negative searches. To avoid this, rewrite your queries with better indexes, especially for large amounts of data.
+
+10. Avoid cursors
+It is always best to avoid cursors, because they can slow you down. If you can’t avoid them make use of temp tables to help save time and speed up SQL queries.
+
+11. Use only the correct number of columns you need
+When you code all queries with SELECT, you pull off more data than you need. So here's how to make the SELECT query faster: before doing a SELECT, make sure you have the correct number of columns against as many rows as you want. This will speed up your processes.
+
+Find out how to make your website faster
+
+12. Count your rows using the system table
+If you need to count your rows, make it simple by selecting your rows from sysindexes.  Below is the best way to add rows to your table.
+
+“SELECT rows FROM sysindexes WHERE object_name (id) = â€˜T1’ AND indexid = 1”
+
+13. Don’t count everything in the table
+If you need to check that some data exists, you will need to carry out an action. People often try this:
+
+SET @CT = (SELECT COUNT (*) FROM dbo.T1);If @CT > 0BEGIN <Do something>END
+
+This is unnecessary and time wasting. The best action to take is:
+
+If EXISTS (SELECT 1 FROM dbo.T1)BEGIN<Do something>END
+
+This helps you to avoid counting every item on the table. When you use EXIST, the SQL server recognizes it and acts, making faster returns.
+
+If this still seems too hard to understand, do not hesitate to hire an SQL expert to help you.
+
+14. Do not use Globally Unique Identifiers (GUIDs)
+To order table data, avoid using GUIDs as much as possible because they can easily cause very fast break off your table.
+
+Use IDENTITY or DATE for dramatic break off that will take only a couple of minutesand substantially speed up your SQL query.
+
+15. Avoid triggers
+It is not necessary to use triggers, as whatever you plan on doing to your data will go through the same transactions as the previous operations.
+
+If you go ahead and use triggers, you could lock several tables until the trigger completes its cycle. Split the data into different transactions to lock up just a few resources, making the transactions go faster.
+
+16. Separate large and small transactions
+If you handle several tables in one transaction, you might lock them all until your transaction is complete. Avoid blocking off transactions by breaking them into several routines, with each routine operating singularly at a time.
+
+This will reduce the amount and number of blocks, and will free up tables for operations to continue taking place.
+
+17. Do not double dip
+Double dipping is running different queries on tables and later putting the queries on temp tables, then joining the large tables and temp tables together.
+
+This takes a huge toll on performance. To. make your SQL query more efficient, query only the large tables once.
+
+18. Whenever you can, use stored procedures
+Stored procedures have so many advantages that make your work easier, and writing queries faster. They slow down traffic because with stored procedures, calls become shorter.
+
+If you use profiler, and other tools that allow you to identify statistics concerning performance, it gets easier to trace. When you use stored procedures, you can use your plans of execution repeatedly.
+
+19. Avoid ORM
+Object-Relational Mappers (ORMs) give the worst code in the world of technology today. This poor code is responsible for much of the bad performance you will encounter.
+
+If you are not able to completely avoid them, the best you can do is minimize them by writing stored procedures that are completely your own, and have ORM use yours instead of those it creates.
+
+20. Go slow
+Do not ever assume you have to complete every task of updating and deleting in one single day. This is wrong, especially archiving data.
+
+Take your time and work on the operation for as long as you need, while making use of the small batches. Working too quickly to finish the work only slows down your queries, and this might bring down your systems.
+
+21. Use cursors less
+Cursors cause many problems, especially to speed. Besides low speed, they can also cause blockages where one operation leads to the blockage of other operations.
+
+This can last for longer than expected and it affects your systems concurrency, slowing everything down. Speed up your SQL queries by avoiding cursors.
+
+22. Use AWR and ADDM
+As queries get older from too much use, their performance tends to worsen. These uses are from upgrades, structural changes, database changes and applications.
+
+To understand these changes better and learn about the plan of execution, use Automatic Database Diagnostic Monitor (ADDM) and automatic workload repository (AWR).
+
+This will help to increase SQL query speed over a period of time.
+
+23. Avoid using the keyword DISTINCT
+If you can reach all your objectives in other ways, avoid using the keyword DISTINCT as much as possible.
+
+When you use DISTINCT you incur an extra operation, which slows all the queries down and makes it almost impossible to get what you need.
+ 
+Conclusion
+SQL queries are not just about writing, but about writing them to achieve efficiency. 
+It is only when they run efficiently and perform fast enough that applications and databases can produce the expected results.
+
+Ignoring important issues can affect the performance of data retrieval from the databases.
