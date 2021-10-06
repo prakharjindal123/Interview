@@ -13,3 +13,5 @@ https://www.edureka.co/blog/interview-questions/sql-interview-questions
 https://www.fullstack.cafe/blog/c-sharp-coding-interview-questions
 
 https://www.youtube.com/watch?v=ucUU9NFvutU
+
+https://www.freelancer.com/articles/web-development/how-to-make-your-sql-queries-faster
