@@ -15,3 +15,5 @@ https://www.fullstack.cafe/blog/c-sharp-coding-interview-questions
 https://www.youtube.com/watch?v=ucUU9NFvutU
 
 https://www.freelancer.com/articles/web-development/how-to-make-your-sql-queries-faster
+
+https://www.sqlshack.com/query-optimization-techniques-in-sql-server-tips-and-tricks/
