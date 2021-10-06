@@ -1,0 +1,46 @@
+
+
+1) SELECT fields instead of using SELECT * 
+    Inefficient:
+
+    SELECT *
+    FROM Customers
+    
+    Efficient:
+
+    SELECT FirstName, LastName, Address, City, State, Zip
+    FROM Customers
+
+2) Avoid SELECT DISTINCT
+    SELECT DISTINCT works by GROUPing all fields in the query to create distinct results.
+    To accomplish this goal however, a large amount of processing power is required.
+    Additionally, data may be grouped to the point of being inaccurate. 
+    To avoid using SELECT DISTINCT, select more fields to create unique results
+    
+3) Create joins with INNER JOIN (not WHERE)
+    Inefficient:
+    SELECT Customers.CustomerID, Customers.Name, Sales.LastSaleDate
+    FROM Customers, Sales
+    WHERE Customers.CustomerID = Sales.CustomerID
+    
+    Efficient:
+    SELECT Customers.CustomerID, Customers.Name, Sales.LastSaleDate
+    FROM Customers
+    INNER JOIN Sales
+    ON Customers.CustomerID = Sales.CustomerID
+    
+ 4) Use WHERE instead of HAVING to define filters
+    The goal of an efficient query is to pull only the required records from the database.
+    Per the SQL Order of Operations, HAVING statements are calculated after WHERE statements.
+    If the intent is to filter a query based on conditions, a WHERE statement is more efficient.
+    
+ 5) Use wildcards at the end of a phrase only
+    Inefficient:
+      SELECT City FROM Customers
+      WHERE City LIKE ‘%Char%’
+    
+    Efficient:  
+      SELECT City FROM Customers
+      WHERE City LIKE ‘Char%’
+ 
+ 6) Use LIMIT to sample query results
