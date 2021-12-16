@@ -1,0 +1,1435 @@
+1. The .Net Framework Interview Questions
+
+
+Q01. What is the .NET Framework? What are the different components of it?
+
+
+
+Q02. What is CLR in .Net? What is the use of CLR?
+
+
+
+Q03. What is the difference between  CTS and CLS?
+
+
+
+Q04. What is the difference between value type and reference type?
+
+
+
+Q05. What is GAC in the .Net Framework?
+
+
+
+Q06. What is the latest version of the .Net Framework and C#?
+
+
+
+Q07. What is the App Domain in the .Net Framework? What is the use of it?
+
+
+
+Q08. What is the difference between namespace and assembly?
+
+
+
+Q09. What is the difference between EXE  and DLL?
+
+
+
+
+
+ 
+
+Q10. What is Connection Pooling in .Net?
+
+
+
+Q11. What is the difference between “throw” and “throw ex”?
+
+
+
+Q12. What is Managed and Unmanaged Code?
+
+
+
+Q13. What is the difference between a Debug build and a Release build?
+
+
+
+Q14. What is the difference between the Stack and the Heap?
+
+
+
+Please visit here for more .Net Interview Questions.
+
+
+
+
+
+
+
+ 
+
+2. C# Interview Questions
+
+
+
+Q01. What are the four pillars of the OOPS?
+
+
+
+Q02. What is the difference between Abstraction and Encapsulation?
+
+
+
+Q03. What is Polymorphism in C#? Tell me the problem for which you have used polymorphism in your project?
+
+
+
+Q04. What is the difference between Early Binding and Late Binding?
+
+
+
+Please read the Late Binding or Dynamic Binding article here. Also please watch the Late Binding or Dynamic Binding video here.
+
+
+
+Q05. What is Shadowing in C#? How you can do shadowing in C#?
+
+
+
+Please read the Shadowing article here. Please watch the Shadowing video here.
+
+
+
+
+
+ 
+
+Q06. What is the difference between abstract class vs interface? Why you have used interface in your project?
+
+
+
+Please read the Abstract Class vs Interface article here. Please also watch the Abstract Class vs Interface video here.
+
+
+
+Q07. What is the difference between the abstract method vs virtual method?
+
+
+
+Please read the Abstract Method vs Virtual Method article here. Please watch the Abstract Method vs Virtual Method video here.
+
+
+
+Q08. What is the difference between Overloading vs Overriding in C#?
+
+
+
+Q09. What is the extension method?
+
+
+
+Q10. What is Constructor? What is the use of static and private constructors?
+
+
+
+Please read the Constructor article here. 
+
+
+
+Q11. What types of constructors have you used in your project, why you have used them?
+
+
+
+Q12. What is the order of constructor execution in the case of inheritance?
+
+
+
+Please watch the Constructor Execution Sequence Order video here.
+
+
+
+
+
+ 
+
+Q13. What is a static class, have you used any static class in your project?
+
+
+
+Please read the C# Static Class article here. Please also watch the C# Static Class video here.
+
+
+
+Q14. What is a partial class, have you ever used any partial class in any of your projects?
+
+
+
+Please read the C# Partial Class article here. Please also watch the C# Partial Class video here.
+
+
+
+Q15. What is a destructor? Have you defined destructor in any of your projects, why?
+
+
+
+Please read about the C# Destructor article here. 
+
+
+
+Q16. What is the difference between Finalize vs Dispose?
+
+
+
+Please read about the C# IDisposable Interface article here. 
+
+
+
+Q17. What is garbage collection and garbage collector in C#?
+
+
+
+
+
+ 
+
+Q18. What is the difference between String vs StringBuilder in C#?
+
+
+
+Please watch the String vs StringBuilder video here.
+
+
+
+Q19. What are the differences between CONST vs READONLY?
+
+
+
+Please watch the Const vs Readonly video here.
+
+
+
+Q20. What are the differences between OUT vs REF types parameters?
+
+
+
+Please watch the OUT vs REF video here.
+
+
+
+Q21. What is the difference between Casting vs Conversion in C#?
+
+
+
+Please watch the Conversion vs. Casting video here.
+
+
+
+Q22. What is the difference between Boxing vs Unboxing in C#?
+
+
+
+Please watch the Boxing vs Unboxing video here.
+
+
+
+Q23. What is a sealed class? Give me a scenario where you have used it in your project?
+
+
+
+Please read the C# Sealed Class article here. Please also watch the C# Sealed Class video here.
+
+
+
+
+
+ 
+
+Q24. What is the difference between a sealed class and a class having a private constructor only?
+
+
+
+Q25. What is a delegate? Have you used any delegates in your project? What about FUNCT and PREDICATE delegate?
+
+
+
+Q26. What is recursion? Which data structure is used by the recursion, stack, or queue?
+
+
+
+Q27. What is the difference between the Array.CopyTo() vs Array.Clone()?
+
+
+
+Q28. What is the difference between IEnumerable vs List in C#?
+
+
+
+Q29. What is the difference between IEnumerable vs IQueryable in C#?
+
+
+
+Q30. What is reflection? Have you used it anywhere in your project?
+
+
+
+
+
+ 
+
+Q31. What is TPL in the .Net?
+
+
+
+Q32. What is the difference between Concurrency vs Parallelism?
+
+
+
+Q33. What is the difference between ForEach vs Parallel ForEach loop in C#?
+
+
+
+Q34. What is Multithreading and why do we need Multithreading in our project?
+
+
+
+Q35. What is the difference between task vs thread, which one is better?
+
+
+
+Q36. What is the difference between task.delay() vs thread.sleep() in C#?
+
+
+
+Q37. What is the use of async and await in C#? How does it work?
+
+
+
+Q38. What is LINQ? How can you use LINQ in your project?
+
+
+
+Q39. How can you check whether two objects are the same in C#?
+
+
+
+
+
+ 
+
+Q40. You have a third-party DLL, what will be your approach to using this DLL in your project?
+
+
+
+Q41. What is the use of generic? Have you used it anywhere in your project? Why?
+
+
+
+Q42. How the memory is allocated by the CLR in the .Net Application?
+
+
+
+Please visit here for more C# Interview Questions.
+
+
+
+
+
+
+
+
+ 
+
+3. MVC Interview Questions
+
+
+Q01. What is the MVC Page Life Cycle?
+
+
+
+Q02. How the MVC is different from 3-Tire Architecture and 3-Layer Architecture?
+
+
+
+Q03. What is the Bundling and Minification in MVC?
+
+
+
+Q04. What is Attribute Routing in MVC? How you can enable the Attribute Routing in MVC?
+
+
+
+Q05. What is _viewStart.cshtml in MVC? 
+
+
+
+Q06. What is a Partial View in MVC? What is the difference between View and Partial View?
+
+
+
+Q07. What is the strongly-typed view in MVC?
+
+
+
+Q08. What is the difference between Html.TextBox() vs Html.TextBoxFor()?
+
+
+
+Q09. What is the difference between Partial vs RenderPartial?
+
+
+
+
+
+ 
+
+Q10. What is the use of ViewModel in MVC?
+
+
+
+Q11. What are the different return types of a controller action method in MVC?
+
+
+
+Q12. What is the difference between "ActionResult" vs  "ViewResult"?
+
+
+
+Q13. What is the difference between Redirect() vs RedirectToAction() in MVC?
+
+
+
+Q14. What is the difference between RedirectToAction() vs. RedirectToRoute() in MVC?
+
+
+
+Q15. What are HTML Helpers in MVC? What are AJAX Helpers in ASP.Net MVC?
+
+
+
+Q16. How can you have multiple submit buttons in ASP.Net MVC Form? 
+
+
+
+Q17. What is the difference between CRSF Attack and an XSS Attack and how does MVC prevent it?
+
+
+
+Q18. What are the different types of Filters available in MVC.Net? 
+
+
+
+Q19. What are the Action Filters in MVC? Tell me the scenario where you have used the Action Filters in your project?
+
+
+
+Q20. What are the different Session State Management options available in Asp.Net MVC?
+
+
+
+
+
+ 
+
+Q21. What is the difference between ViewBag vs. ViewData?
+
+
+
+Q22. What is the difference between TempData vs. Session?
+
+
+
+Q23. What is the Data Annotation in MVC?
+
+
+
+Q24. What is the difference between  RenderSection() vs. RenderBody() in MVC?
+
+
+
+Q25. What is the difference between RenderBody() vs. RenderPage() in MVC?
+
+
+
+Q26. What is the difference between Styles.Render() vs Scripts.Render() in MVC?
+
+
+
+Q28. What is the use of the global.asax, tell me a scenario where you have used it explicitly in your project?
+
+
+
+Q29. How you can integrate any custom processing logic in the request pipeline in MVC?
+
+
+
+Please visit here for more MVC Interview Questions.
+
+
+
+
+
+
+
+
+ 
+
+4. Web API Interview Questions
+
+
+Q01. What are the REST Principles?
+
+
+
+Q02. What is the difference between REST vs. SOAP services?
+
+
+
+Q03. What is the difference between Web API vs. WCF Services?
+
+
+
+Q04. Why Web API, if you can implement REST with WCF also?
+
+
+
+Q05. What is the difference between MVC vs. Web API?
+
+
+
+Q06. What are the different protocols supported by Web API?
+
+
+
+Q07. What is the difference between the 200 vs. 201 HTTP status codes? 
+
+
+
+
+
+ 
+
+Q08. What is the difference between PUT vs. POST?
+
+
+
+Q09. What is Content Negotiation in Web API?
+
+
+
+Q10. What are the different result formats that a Web API can return?
+
+
+
+Q11. What is the difference between FromURI and vs. FromBody attribute in Web API? Why do we need them?
+
+
+
+Q12. What is the difference between Query Param vs. URI Param?
+
+
+
+Q13. What are “Under-Posting” and “Over-Posting” in Web API?
+
+
+
+Q14. What are the different ways to pass parameters in Web API?
+
+
+
+Q15. What is the difference between MVC Routing vs. Web API Routing?
+
+
+
+Q16. What are the different Versioning Mechanisms in Web API? 
+
+
+
+ 
+
+
+
+Q17. How can you secure your API Services? 
+
+
+
+Q18. What is the difference between JWT Authentication vs. Bearer Token Authentication?
+
+
+
+Q19. How can you manage sessions in Web API?
+
+
+
+Q20. What are the different action filters supported in web API? 
+
+
+
+Q21. What is the CORS issue in Web API? 
+
+
+
+Q22. What is a Swagger in Web API?
+
+
+
+Q23. What is OWIN and why need it?
+
+
+
+Q24. What is Azure API Manager?
+
+
+
+
+
+ 
+
+Q25. How do you handle the errors of the external API calls in your projects?
+
+
+
+Q26. How do you manage the error in your project for any triaging?
+
+
+
+Q27. Have you written any test cases for your application? If not how do you make sure that the application is working as expected after the release?
+
+
+
+Please visit here for more Web API Interview Questions.
+
+
+
+
+
+
+
+
+ 
+
+5. SQL Interview Questions
+
+
+Q01. What is the difference between Primary Key vs Unique Key?
+
+
+
+Please watch the PRIMARY KEY vs. UNIQUE KEY video here.
+
+
+
+Q02. What is the difference between Unique Key vs Unique Index?
+
+
+
+Please watch the UNIQUE KEY vs. UNIQUE INDEX video here.
+
+
+
+Q03. What is the difference between Clustered Index vs the Non-Clustered Index?
+
+
+
+Please watch the Clustered vs Non-Clustered Index video here.
+
+
+
+Q04. What is the difference between the DELETE vs TRUNCATE commands?
+
+
+
+ Please watch the DELETE vs TRUNCATE video here.
+
+
+
+Q05. What is the difference between the WHERE clause vs HAVING clause in SQL Server?
+
+
+
+ Please watch the WHERE vs HAVING clause video here.
+
+
+
+Q06. What is the difference between ISNULL() vs COALESCE() function?
+
+
+
+Please watch the ISNULL vs COALESCE video here.
+
+
+
+
+
+ 
+
+Q07. What is the difference between LEN() vs DATALENGTH() function?
+
+
+
+Please watch the LEN vs DATALENGTH video here.
+
+
+
+Q08. What is the difference between ROW_NUMBER(), RANK(), and DENSE_RANK() in SQL?
+
+
+
+Please watch the ROW_NUMBER vs RANK vs DENSE_RANK video here.
+
+
+
+Q09. What is the difference between UNION vs UNION ALL in SQL?
+
+
+
+Please watch the UNION vs UNION ALL video here.
+
+
+
+Q10. What is the difference between COUNT(*), COUNT(1), and COUNT(<column-name>) in SQL?
+
+
+
+Please watch the Count(*) vs Count(col)  video here.
+
+
+
+Q11. What is a Temporary Table in SQL? How it is different from a Table Variable?
+
+
+
+Please watch the Temp Table video here.
+
+
+
+
+
+ 
+
+Q12. What is the difference between Dirty Read vs Phantom Read in SQL?
+
+
+
+Q13. What is INNER JOIN? How an INNER JOIN is different from a SELF JOIN? 
+
+
+
+Please watch the INNER JOIN video here and the SELF JOIN video here.
+
+
+
+Q14. What is the difference between FULL JOIN vs CROSS JOIN?
+
+
+
+Please watch the FULL JOIN vs CROSS JOIN video here.
+
+
+
+Q15. What is the difference between Stored Procedures vs Function in SQL?
+
+
+
+Q16. What is View in SQL and why you have created a view for your project?
+
+
+
+Q17. What is Trigger? For what problem to resolve you have created triggers in your project?
+
+
+
+Q18. What are ACID properties in SQL? Where you can write the Rollback logic?
+
+
+
+
+
+ 
+
+Q19. What is the difference between COMMIT vs SAVE transactions in SQL?
+
+
+
+Q20. What is concurrency in SQL and what are the different Concurrency Modes available in SQL?
+
+
+
+Q21. What is the difference between IDENTITY vs Sequence in SQL?
+
+
+
+Q22. What is the difference between the Cast() vs Convert() functions in SQL?
+
+
+
+Q23. What is Common Table Expression (CTE)? 
+
+
+
+Please watch the Common Table Expression (CTE) video here.
+
+
+
+Q24. What is Derived Table Expression (DTE)? 
+
+
+
+Please watch the Derived Table (DT) video here.
+
+
+
+
+
+ 
+
+Q25. How can you get the last inserted record id in SQL?
+
+
+
+Q26. What is SQL Injection, how can you prevent SQL Injection attacks?
+
+
+
+Q27. What is the difference between Unicode vs Non-Unicode data types in SQL?
+
+
+
+Q28. How will you get the 3rd highest salary in SQL?
+
+
+
+Please read the different ways to get the 3rd highest salary article here and watch the video for the same here.
+
+
+
+Q29. How can you delete the duplicate records from a table?
+
+
+
+Please watch the different ways to remove Duplicate Records video here.
+
+
+
+Q30. How can you update the records of a table based on other table values?
+
+
+
+Please visit here for more SQL Interview Questions.
+
+
+
+
+
+
+
+
+ 
+
+6. Design Pattern Interview Questions
+
+
+Q01. What is the difference between N-Tire Architecture and N-Layer Architecture?
+
+
+
+Q02. Have you used any design patterns in your project? Why do you use that pattern?
+
+
+
+Q03. What is Repository Pattern? 
+
+
+
+Q04. Why you have used other repository patterns if Entity Framework is already a repository pattern?
+
+
+
+Q05. What are the SOLID Principles? Have you followed that in your Project?
+
+
+
+Q06. What is Liskov Substitution Principle (LSP)? How it is different from Inheritance or Polymorphism?
+
+
+
+Q07. What is the Dependency Inversion Principle (DIP)? How it is different from Dependency Injection (DI) and Inversion of Control (IoC)?
+
+
+
+
+
+Q08. What is Dependency Injection (DI)? How it is different from the IoC Container?
+
+
+
+Q09. What is the difference between AddTransiant and AddScoped objects in the DI?
+
+
+
+Q10. What is Singleton Design Pattern? How it is different from the static class?
+
+
+
+Q11. Is it possible to create a clone of a singleton object? How can you prevent creating another instance of singleton using the clone() method?
+
+
+
+Q12. What is Factory Design Pattern? How it is different from Abstract Factory Pattern?
+
+
+
+Q13. What is Circular Dependency and how can you resolve this issue?
+
+
+
+Please visit here for more Design Patterns and Principles Interview Questions.
+
+
+
+
+
+
+
+7. Java Script Interview Questions
+
+Q01. What is the difference between setTimeout() vs setInterval() method?
+
+
+
+Q02. What is the difference between clearTimeout() vs clearInterval() method?
+
+
+
+Q03. What is Hoisting in JavaScript?
+
+
+
+Q04. What is the difference between "==" vs "===" operators in JavaScript?
+
+
+
+Q05. What is Unobtrusive JavaScript?
+
+
+
+Q06. What is the difference between "passed by value" vs "passed by reference" in JavaScript?
+
+
+
+Q07. What is IIFE(Immediately Invoked Function Expression) in JavaScript?
+
+
+
+
+
+Q08. What are Closures in JavaScript?
+
+
+
+Q09. What are lambda or arrow functions in JavaScript?
+
+
+
+Q10. What is the difference between declaring variables using var, let, and const?
+
+
+
+Q11. What are the differences between a cookie, local storage, and session storage?
+
+
+
+Q12. What is the difference between null, undefined, and undeclared in JavaScript?
+
+
+
+Q13. What is the difference between window and document in JavaScript?
+
+
+
+Q14. What are global variables? What are the problems with the global variables?
+
+
+
+Q15. What is event bubbling in JavaScript?
+
+
+
+Q16. What is the difference between document load and DOMContentLoaded events?
+
+
+
+
+
+Q17. What is the difference between an attribute and a property?
+
+
+
+Q18. What are the same-origin and cross-origin policies of JavaScript?
+
+
+
+Q19. What is the use of "void 0" in JavaScript?
+
+
+
+Q20. What is the use of the preventDefault() method in JavaScript?
+
+
+
+Q21. What is the use of the ‘this’ keyword in JavaScript?
+
+
+
+Q22. What is the difference between an alert box and a confirmation box?
+
+
+
+Q23. What is the use of the pop() and push() method in JavaScript?
+
+
+
+Q24. What is the difference between .call() and .apply() in JavaScript?
+
+
+
+Q25. What are the decodeURI() and encodeURI() in JavaScript?
+
+
+
+Q26. Why you should not use innerHTML and innerText in JavaScript? What is the difference between them?
+
+
+
+
+
+
+
+
+8. jQuery Interview Questions
+
+
+Q01. What is the difference between JavaScript and jQuery?
+
+
+
+Q02. What is the difference between $(window).load() vs $(document).ready() function in jQuery? When to use $(window).load instead of $(document).ready()?
+
+
+
+Q03. What is the difference between prop and attr in jQuery?
+
+
+
+Q04. What is the use of the delay() method in jQuery?
+
+
+
+Q05. What is the starting point of code execution in jQuery? What is the use of $.ready() function in JQuery?
+
+
+
+Q06. Can you use multiple document.ready() function on the same page?
+
+
+
+Q07. What is jQuery.holdReady() function in jQuery?
+
+
+
+
+
+Q08. What is the difference between the ID selector vs class selector in jQuery? What if two elements with the same ID?
+
+
+
+Q09. What is the use of the val() method in jQuery?
+
+
+
+Q10. What is the difference .empty(), .remove(), and .detach() in jQuery?
+
+
+
+Q11. What is the difference between bind() vs live() vs delegate() methods in jQuery?
+
+
+
+Q12. What is the difference between $(this) and "this" in jQuery?
+
+
+
+Q13. What is the difference between bind() and unbind() elements in jQuery?
+
+
+
+Q14. What is the difference between Map vs Grep functions in jQuery?
+
+
+
+
+
+
+
+
+9. HTML Interview Questions
+
+
+Q01. What is the difference between "display: none" vs "visibility: hidden" in HTML?
+
+
+
+Q02. What is the difference between "target = _blank" and "target = blank" in the "href" attribute?
+
+
+
+Q03. What is the difference between link tag <link> and anchor tag <a>?
+
+
+
+Q04. What is the difference between the "id" attribute and the "class" attribute of HTML elements?
+
+
+
+Q05. What is the difference between <strong> vs  <b> tags and <em> vs <i> tags?
+
+
+
+Q06. What are void elements or empty elements in HTML? Tell me some examples.
+
+
+
+Q07. How can you optimize the website assets loading?
+
+
+
+Q08. Where to put the scripts on the HTML page? When to use scripts in the head and when to use scripts in the body?
+
+
+
+
+
+Q09. Can we display a web page inside a web page? Is nesting of webpages possible? What is the use of the <iframe> tag?
+
+
+
+Q10. What is the difference between <figure> tag and <img> tag?
+
+
+
+Q11. How can we club two or more rows or columns into a single row or column in an HTML table?
+
+
+
+Q12. Why is the use of a URL Encoded and Decoded in HTML?
+
+
+
+Q13. If I do not put <!DOCTYPE html> will HTML 5 work?
+
+
+
+Q14. What is the difference between a block-level element and an inline element?
+
+
+
+Q15. What is DOM in HTML? What will happen to your webpage if you forget to close any tag or any end tag?
+
+
+
+
+
+
+
+
+10. CSS Interview Questions 
+
+Q01. What are the different types of selectors in CSS?
+
+
+
+Q02. What is the difference between a Class selector vs ID selector in CSS?
+
+
+
+Q03. What is the difference between Cell Padding vs Cell Spacing?
+
+
+
+Q04. What is the difference between Padding vs Margin?
+
+
+
+Q05. What is the difference between defining the size in px and % unit?
+
+
+
+
+
+Q06. What is the float property of CSS?
+
+
+
+Q07. What is the overflow property in CSS used for?
+
+
+
+Q08. What is the difference between "fixed", "absolute" and "relative" positions?
+
+
+
+Q09. What is the use of "important" declarations in CSS?
+
+
+
+Q10. What is BOX Model in CSS?
+
+
+
+
+
+
+
+
+11. Managerial Interview Questions
+
+Q01. Where do you have hosted your project, cloud or on-premise? How do you deploy your project? Tell me your current roles and responsibility in your project.
+
+
+
+Q02. How the framework is organized in your project? How does the request flow in your project framework?
+
+
+
+Q03. What code repository have you used for your project, GIT or TFS? How do you resolve the merge conflict there?
+
+
+
+Q04. Have you ever been involved in the code review? What are the things that you are looking for in the code review?
+
+
+
+Q05. In the code review you found that a fresher developer has written a code that involves boxing and unboxing most frequently or any other bad practices, how will you communicate this to the developer to resolve this issue?
+
+
+
+Q06. In your application, how you are ensuring that every developer is following the coding practices and naming conventions as expected throughout the application?
+
+
+
+
+
+Q07. If the stakeholder claims that, the application is slow, what will be your approach to improve the performance of the application?
+
+
+
+Q08. How do you make assure that your application is working as expected after any release?
+
+
+
+Q09. What type of agile model do you follow for your project development?
+
+
+
+Q10. What SPRINT plan have you followed in your project? What was your team size?
+
+
+
+Q11. Have you ever handled any team in any of your projects? What was the max team size that you have managed?
+
+
+
+Q12. What is the SONAR Qube? How do you ensure the code quality? How do you resolve the SONAR Qube issue in the DevOps?
+
+
+
+
+
+Q13. What is a load balancer and VPN? Have you configured it in your project? How do you manage and make sure that your application never goes down while doing any deployment?
+
+
+
+Q14. How do you communicate and explain to your fresher/junior developers for any requirement, code issue, or bugs on which they have worked?
+
+
+
+Q15. If the testing team rejects the code/bugfix which you have written again and again, but the same code is working perfectly on your local?  How will you handle this scenario?  
+
+
+
+Q16. How do you communicate with the client/stack holders for gathering the requirement and freezing the requirements?
+
+
+
+Q17. If any user or client raises any concern or error in the application, how do you triage this error/issue?
+
+
+
+
+
+Q18. How do you make yourself updated with the new technology and trends in the market?
+
+
+
+Q19. What is Azure Cloud? For what purpose you have used Azure?
+
+
+
+Q20. How can you secure your Azure resources?
+
+
+
+Q21. Tell me the latest challenge which you have faced in your project? How did you overcome this challenge?
+
+
+
+
+
+
+
+
+12. HR Interview Questions
+
+Q01. Why are you looking for a job change?
+
+
+
+Q02. Why are you changing your job so frequently?
+
+
+
+Q03. What is your expectation from the new role? What kind of job role you are looking for?
+
+
+
+Q04. Where are you looking yourself after 5 years in our organization?
+
+
+
+Q05. What is your salary expectation? What is the reason behind the x% of the hike on the current CTC? Why your expectation is so high, can you justify it?
+
+
+
+Q06. What was the previous appraisal/increment percentage? Why you are looking for another opportunity if the current organization has given a good increment? 
+
+
+
+
+
+Q07. Why should we hire you? Why do you think that you are the best fit for this role?
+
+
+
+Q08. How soon you can join us? Why you are requesting for joining late if your last working date is dd-mm-yy?
+
+
+
+Q09. Do you have any offers in hand? Why you are looking for other opportunities if you have already an offer in hand?
+
+
+
+Q10. How much hike did you get in the current offer you have in hand? or What is your current offer package? Why you are looking for another opportunity if you have an offer having a good hike already? 
+
+
+
+Q11. How can we trust, that you are going to join us after getting the offer later?
+
+
+
+Q12. Why do you want to work for our company?
+
+
+
+
+
+Q13. What are your greatest strengths and weaknesses?
+
+
+
+Q14. What is your biggest achievement so far?
+
+
+
+Q15. Tell me about a time where you experienced difficulty at work while working on a project.
+
+
+
+Q16. How do you handle the project pressure? How do you handle productivity under pressure?
+
+
+
+Q17. Tell me how you will handle it if the priorities of a project or requirement of the project were changed frequently?
+
+
+
+Q18. What would you do if you were working under a bad boss?
+
+
+
+
+
+Q19. How long do you think you will be working for us if you are hired?
+
+
+
+
+Q20. Would you like to work overtime or odd hours? What is more important to you: the money or the work?
+
+
+
+
+
+
+
+13. Puzzles Interview Questions
+
+
+Q01. You have a ball of marble and you have to test the quality of that ball from a 100 floors building. You have to test the ball by dropping it from every floor till the ball is broken. What will be your approach to test the ball quality in a minimum number of iteration? 
+
+OR
+
+There is a building of 100 floors and you are given 2 eggs. If an egg drops from the Nth floor or above it will break. If it’s dropped from any floor below, it will not break. What is the Nth floor? How many drops do you need to make? What strategy should you adopt to minimize the number of egg drops it takes to find the solution?
+
+
+
+Q02. In the middle of a round pool lies a beautiful water lily. The water-lily doubles in size every day. After exactly 20 days, the lily will cover the complete pool. After how many days will the water lily cover half of the pool? 
+
+
+
+
+
+Q03. There are 8 batteries, but only 4 of them work. You have to use them for a flashlight which needs only 2 working batteries. To guarantee that the flashlight is turned on, what is the minimum number of battery pairs you need to test?
+
+
+
+Q04. A birthday cake has to be equally divided into 8 equal pieces in exactly 3 cuts. Determine the way to make this division possible.
+
+
+
+
+
+Q05. There are 2 jugs with 4 liters and 5 liters of water respectively. The objective is to pour exactly 7 liters of water into a bucket. How can it be accomplished?
+
+
+
+Q06.There are 3 switches in a room, where one of them is assigned for a bulb in the next room. You can’t see whether the bulb is on or off until you leave the room. Find the minimum number of times you have to go into the room to identify which switch corresponds to the bulb in the other room.
+
+
+
+Q007. Three cannibals and three anthropologists have to cross a river. The boat they have is only big enough for two people. The cannibals will do as requested, even if they are on the other side of the river, with one exception. If at any point in time there are more cannibals on one side of the river than anthropologists, the cannibals will eat them. What plan can the anthropologists use for crossing the river so they don’t get eaten?
+
+
+
+
+
+Q08. A man fell in a 30 meter deep well, in one day he climbs 4 meters up and slips 3 meters down. How many days would it take for him to come out of the well?
+
+
+
+Q09. There are 8 coins out of which 1 coin is faulty. The faulty coin has a lesser weight than the rest of the coins which all have the same weight. You have been given a weighing balance with a pulley. What will be the minimum iteration count to find the faulty coin?
+
+
+
+Q10. How can you swap two numbers without any third variable?
