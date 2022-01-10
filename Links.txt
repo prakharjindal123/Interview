@@ -21,3 +21,6 @@ https://www.sqlshack.com/query-optimization-techniques-in-sql-server-tips-and-tr
 
 FullStack
 https://www.techpointfunda.com/2021/11/fullstackdeveloper-interviewquestions.html?m=1
+
+Imp
+https://dotnettutorials.net/lesson/constructor-interview-questions-answers-csharp/
