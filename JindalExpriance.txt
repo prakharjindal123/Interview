@@ -1,1 +1,6 @@
 read me
+hw to create clone of table structure without data
+can we call function from stored procedure
+difference between stored procedure and functions
+cashing in core
+transactions in repository pattern
